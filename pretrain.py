@@ -13,7 +13,7 @@ import numpy as np
 import tensorflow as tf
 import tensorlayer as tl
 from hyperpose import Config,Model,Dataset
-
+#--model_type=Openpose --model_backbone=Vggtiny --model_name=Openpose_model --dataset_path=./data
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='FastPose.')
     parser.add_argument("--model_type",
